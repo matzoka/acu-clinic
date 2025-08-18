@@ -14,7 +14,7 @@ acu-clinic
 
 **デプロイ（GitHub Pages）**
 - `main` ブランチへの push をトリガーに GitHub Actions で自動デプロイ
-- 公開 URL（既定）: `https://matzoka.github.io/acu-clinic/`
+- 公開 URL（既定）: `https://acu-clinic.pages.dev/`
 - 反映タイミング: push 後 1～2 分ほどで反映（Actions の進行に依存）
 
 **ディレクトリ構成（抜粋）**
@@ -34,4 +34,3 @@ acu-clinic
 - 変更: `styles.css` を編集
 - コミット: `git add -A && git commit -m "Update styles"`
 - 反映: `git push`（自動で Pages にデプロイされます）
-

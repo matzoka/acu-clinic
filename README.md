@@ -17,6 +17,11 @@ acu-clinic
 - 公開 URL（既定）: `https://acu-clinic.pages.dev/`
 - 反映タイミング: push 後 1～2 分ほどで反映（Actions の進行に依存）
 
+**予約・お問い合わせ**
+- Web予約フォーム: https://forms.gle/kgyipd7Hjen31qgh8
+- メール: osugiclinic@gmail.com
+- 電話: 042-868-2048
+
 **ディレクトリ構成（抜粋）**
 ```
 .

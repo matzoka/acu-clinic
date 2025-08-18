@@ -51,7 +51,19 @@
         {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Friday","Saturday"],"opens":"09:00","closes":"12:30"},
         {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Friday","Saturday"],"opens":"15:00","closes":"20:00"},
         {"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday","PublicHolidays"],"opens":"09:00","closes":"12:30"}
-      ]
+      ],
+      "potentialAction": {
+        "@type": "ScheduleAction",
+        "name": "Web予約フォーム",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://forms.gle/kgyipd7Hjen31qgh8",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
     }
     </script>
   </head>

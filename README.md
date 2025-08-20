@@ -12,10 +12,15 @@ acu-clinic
 - 簡易サーバーを起動:
   - Python: `python3 -m http.server 5173` で起動し、`http://localhost:5173/` を開く
 
-**デプロイ（GitHub Pages）**
-- `main` ブランチへの push をトリガーに GitHub Actions で自動デプロイ
+**デプロイ（Cloudflare Pages）**
+- GitHub 連携で `main` ブランチへの push を検知し自動デプロイ
 - 公開 URL（既定）: `https://acu-clinic.pages.dev/`
-- 反映タイミング: push 後 1～2 分ほどで反映（Actions の進行に依存）
+- 反映タイミング: push 後 数十秒～数分で反映（キュー状況に依存）
+- ビルド設定（参考）:
+  - Framework preset: None
+  - Build command: なし（空）
+  - Build output directory: リポジトリルート（`.`）
+  - 環境変数: 特になし
 
 **予約・お問い合わせ**
 - Web予約フォーム: https://forms.gle/kgyipd7Hjen31qgh8
